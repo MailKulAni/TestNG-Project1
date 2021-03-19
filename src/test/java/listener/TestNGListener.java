@@ -5,7 +5,7 @@ import org.testng.TestListenerAdapter;
 
 public class TestNGListener extends TestListenerAdapter{
 	
-	public void onTestFilure(ITestResult it) {
+	public void onTestFailure(ITestResult it) {
 		String testcase = it.getName();
 		System.out.println("----->"+testcase+" failed");
 	}
