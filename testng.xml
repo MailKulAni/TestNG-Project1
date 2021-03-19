@@ -11,4 +11,10 @@
          <class name="package1.SearchAndBuyPhone"/>
       </classes>
    </test>
+   <test name="Hard Assertion example">
+      <classes>
+         <class name="package1.HardAssertionsExamples"/>
+      </classes>
+   </test>
+
 </suite>
