@@ -6,11 +6,18 @@
 	<listener class-name="listener.TestNGListener"/>
 </listeners>
 
+   <test name="Soft Assertion example">
+      <classes>
+         <class name="package1.SoftAssertionsExamples"/>
+      </classes>
+   </test>
+   
    <test name="Search and buy Phone">
       <classes>
          <class name="package1.SearchAndBuyPhone"/>
       </classes>
    </test>
+   
    <test name="Hard Assertion example">
       <classes>
          <class name="package1.HardAssertionsExamples"/>
