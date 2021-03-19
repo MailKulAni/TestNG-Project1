@@ -3,7 +3,7 @@
 <suite name="Test">
 
 <listeners>
-	<listener class-name=""/>
+	<listener class-name="listener.TestNGListener"/>
 </listeners>
 
    <test name="Search and buy Phone">
